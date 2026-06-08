@@ -1,0 +1,64 @@
+# =========================
+# Python (desktop/)
+# =========================
+
+desktop/__pycache__/
+desktop/**/*.py[cod]
+desktop/*.py[cod]
+desktop/.python-version
+
+desktop/.venv/
+desktop/venv/
+desktop/env/
+
+desktop/.pytest_cache/
+desktop/.mypy_cache/
+desktop/.ruff_cache/
+
+desktop/dist/
+desktop/build/
+desktop/*.egg-info/
+
+desktop/.coverage
+desktop/htmlcov/
+
+# Logs
+desktop/*.log
+
+# IDEs
+desktop/.idea/
+desktop/.vscode/
+
+# =========================
+# React (frontend/)
+# =========================
+
+frontend/node_modules/
+
+frontend/build/
+frontend/dist/
+
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.env.test.local
+
+frontend/coverage/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# IDEs
+frontend/.idea/
+frontend/.vscode/
+
+# =========================
+# Sistema Operacional
+# =========================
+
+.DS_Store
+Thumbs.db
