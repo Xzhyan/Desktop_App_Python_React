@@ -29,13 +29,22 @@ export default function HomePage() {
 
     return (
         <div className="flex w-6xl bg-green-900 p-2 shadow-md">
-            <ul>
-                {animals.map((animal) => (
-                    <li key={animal.id}>
-                        {animal.identification}
-                    </li>
-                ))}
-            </ul>
+            
+            {/* Lista de animais */}
+            <div>
+                <ul>
+                    {animals.map((animal) => (
+                        <li key={animal.id}>
+                            {animal.identification}
+                        </li>
+                    ))}
+                </ul>
+            </div>
+
+            {/* Criar novo animal */}
+            <div>
+                
+            </div>
         </div>
     )
 }
