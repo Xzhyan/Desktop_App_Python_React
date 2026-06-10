@@ -7,6 +7,7 @@ import api from "../routes/api";
 interface Animal {
     id: number;
     identification: string;
+    breed: string;
 }
 
 
@@ -34,8 +35,9 @@ export default function HomePage() {
             <div>
                 <ul>
                     {animals.map((animal) => (
-                        <li key={animal.id}>
-                            {animal.identification}
+                        <li className="flex gap-2" key={animal.id}>
+                            <p>{animal.identification}</p>
+                            <p>{animal.breed}</p>
                         </li>
                     ))}
                 </ul>
